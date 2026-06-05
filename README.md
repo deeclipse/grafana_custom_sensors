@@ -13,3 +13,6 @@ cat /var/lib/node_exporter/textfile_collector/minecraft.prom
 for testing the configuration run:
 sudo /usr/local/bin/minecraft_status_metric.sh
 cat /var/lib/node_exporter/textfile_collector/minecraft.prom
+
+to check the alloy logs
+sudo grep -n 'minecraft_server_up' /etc/alloy/config.alloy
